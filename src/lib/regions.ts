@@ -18,6 +18,7 @@ export interface GetRegionsOutput {
   platform: PlatformResponse
 }
 
+// Ref: https://github.com/superfly/flyctl/blob/master/api/resource_platform.go
 const getRegionsQuery = `query {
   platform {
     requestRegion
