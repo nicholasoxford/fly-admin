@@ -3,14 +3,14 @@ import Client from '../client'
 interface RegionResponse {
   name: string
   code: string
-  latitude: number | null
-  longitude: number | null
+  latitude: number
+  longitude: number
   gatewayAvailable: boolean
   requiresPaidPlan: boolean
 }
 
 interface PlatformResponse {
-  requestRegion: string | null
+  requestRegion: string
   regions: RegionResponse[]
 }
 
