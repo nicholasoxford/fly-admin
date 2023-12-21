@@ -459,7 +459,7 @@ export enum ApiMachineRestartPolicyEnum {
 
 export interface AppsListParams {
   /** The org slug, or 'personal', to filter apps */
-  org_slug: string
+  org_slug?: string
 }
 
 export interface MachinesListParams {
