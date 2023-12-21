@@ -427,7 +427,7 @@ export interface ApiTLSOptions {
 
 export enum MainStatusCode {
   Unknown = 'unknown',
-  InsufficientCapacity = 'insufficient_capacity',
+  CapacityErr = 'insufficient_capacity',
 }
 
 export enum SignalRequestSignalEnum {
