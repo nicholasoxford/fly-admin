@@ -65,8 +65,6 @@ export interface CreateVolumeRequest {
 }
 
 export interface ErrorResponse {
-  /** Deprecated */
-  details?: any
   error?: string
   status?: MainStatusCode
 }
@@ -291,6 +289,8 @@ export interface ApiMachineConfig {
   env?: Record<string, string>
   files?: ApiFile[]
   guest?: ApiMachineGuest
+  /** Deprecated */
+  host_dedication_id?: string
   /** The docker image to run */
   image?: string
   init?: ApiMachineInit
