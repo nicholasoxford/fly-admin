@@ -10,13 +10,13 @@ describe('regions', () => {
     const mockResponse = {
       data: {
         platform: {
-          requestRegion: null,
+          requestRegion: 'sin',
           regions: [
             {
               name: 'Amsterdam, Netherlands',
               code: 'ams',
-              latitude: null,
-              longitude: null,
+              latitude: 52.374342,
+              longitude: 4.895439,
               gatewayAvailable: true,
               requiresPaidPlan: false,
             },
